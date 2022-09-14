@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>SimpleMVC</title></head>
+    <body>
+        <header class="cabecalho">Simple MVC - GitHub API</header>
+        <main class="container">
+            <section class="profile" id="profile"></section>
+
+            <form class="filter" id="filter">
+                <input type="text" id="user" placeholder="Nome"/>
+                <button type="submit" id="buscar">Buscar</button>
+            </form>
+
+            <section class="repo" id="repo">
+                <h2>Repositórios</h2>
+                <div class="repo-list" id="repo-list"></div>
+            </section>
+        </main>
+
+        <footer>
+            Trying to do better - Christian Souza
+        </footer>
+
+        <script type="module" src="js/index.js"></script>
+    </body>
+</html>
